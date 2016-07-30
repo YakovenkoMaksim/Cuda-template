@@ -70,6 +70,14 @@
     .btn {
         width: 70%;
     }
+
+    .service_section h2 {
+        font-size: 28px;
+    }
+
+    .service_section p {
+        padding: 0;
+    }
 }
 
 /* Custom, iPhone Retina */
@@ -87,12 +95,12 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
-
+    
 }
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-
+    
 }
 
 /* Medium Devices, Desktops */

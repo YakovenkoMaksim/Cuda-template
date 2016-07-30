@@ -70,9 +70,9 @@ body {
 
 /* Header - TopLine */
 
-.header_topline {
+.main_header {
     background-color: #87509c;
-    height: 595px;
+    padding-bottom: 50px;
 }
 
 .logo_block {
@@ -138,4 +138,36 @@ h1 {
 button:active.btn.btn_orange {
     background-color: #e77947;
     box-shadow: 0 5px #bd4f1d;
+}
+
+/* Service section */
+
+.service_section {
+    background-color: #17c2a4;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+.service_section h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 95px;
+    text-transform: uppercase;
+}
+
+.service_section h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.service_section p {
+    font-size: 18px;
+    margin: 10px 0 65px 0;
+}
+
+.service_block p {
+    font-size: 16px !important;
+    padding: 0 25px;
 }
