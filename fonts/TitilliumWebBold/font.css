@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'TitilliumWebBold';
+	src: url('./TitilliumWebBold.eot');
+	src: local('TitilliumWebBold'), url('./TitilliumWebBold.woff') format('woff'), url('./TitilliumWebBold.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_42945">Text with this font applied</p> */
+.fontsforweb_fontid_42945 {
+	font-family: 'TitilliumWebBold' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */
