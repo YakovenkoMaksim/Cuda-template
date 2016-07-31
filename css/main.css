@@ -110,6 +110,10 @@ h1, h2, h3 {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
+
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
 }
 
 .top_menu li a:hover {
@@ -138,9 +142,15 @@ h1 {
 .btn.btn_orange {
     background-color: #eb7d4b;
     box-shadow: 0 6px #c55725;
+    font-weight: bold;
 }
+
+button:hover.btn_orange {
+    background-color: #e07240;
+}
+
 button:active.btn.btn_orange {
-    background-color: #e77947;
+    background-color: #e07240;
     box-shadow: 0 5px #bd4f1d;
 }
 
@@ -219,7 +229,10 @@ h3 {
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
     border-radius: 50px;
-
+    
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
 }
 
 .btn_social i {
