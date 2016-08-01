@@ -30,6 +30,18 @@
         display: block;
         text-align: center;
     }
+
+    .percents {
+        left: 150px;
+    }
+
+    .skills_block h3 {
+        padding-bottom: 70px;
+    }
+
+    .skills_section {
+        padding-bottom: 0;
+    }
 }
 
 /* Small Devices, Tablets */

@@ -249,3 +249,27 @@ h3 {
 .btn_social li {
     margin: 0 5px;
 }
+
+/* Skills section */
+
+.skills_section {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.skills_section p {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 65px;
+}
+
+.skills_block {
+    position: relative;
+}
+
+.percents {
+    font-size: 50px;
+    position: absolute;
+    left: 110px;
+    top: 40px;
+}
