@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee867549-fa47-4b80-9b61-d825b3096113" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/media.css" afterPath="$PROJECT_DIR$/css/media.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/font-awesome-4.2.0/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/libs/font-awesome-4.2.0/css/font-awesome.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/font-awesome-4.2.0/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/libs/font-awesome-4.2.0/fonts/fontawesome-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/html5shiv/es5-shim.min.js" afterPath="$PROJECT_DIR$/libs/html5shiv/es5-shim.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/html5shiv/html5shiv-printshiv.min.js" afterPath="$PROJECT_DIR$/libs/html5shiv/html5shiv-printshiv.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/html5shiv/html5shiv.min.js" afterPath="$PROJECT_DIR$/libs/html5shiv/html5shiv.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/html5shiv/respond.min.js" afterPath="$PROJECT_DIR$/libs/html5shiv/respond.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/jquery/jquery-1.11.1.min.js" afterPath="$PROJECT_DIR$/libs/jquery/jquery-1.11.1.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/owl-carousel/owl.carousel.css" afterPath="$PROJECT_DIR$/libs/owl-carousel/owl.carousel.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/owl-carousel/owl.carousel.js" afterPath="$PROJECT_DIR$/libs/owl-carousel/owl.carousel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/owl-carousel/owl.carousel.min.js" afterPath="$PROJECT_DIR$/libs/owl-carousel/owl.carousel.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/owl-carousel/owl.theme.css" afterPath="$PROJECT_DIR$/libs/owl-carousel/owl.theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/owl-carousel/owl.transitions.css" afterPath="$PROJECT_DIR$/libs/owl-carousel/owl.transitions.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/respond/respond.min.js" afterPath="$PROJECT_DIR$/libs/respond/respond.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/waypoints/waypoints-1.6.2.min.js" afterPath="$PROJECT_DIR$/libs/waypoints/waypoints-1.6.2.min.js" />
     </list>
     <ignored path="2_Cuda.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,8 +32,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="459">
-                  <caret line="153" column="70" selection-start-line="153" selection-start-column="70" selection-end-line="153" selection-end-column="70" />
+                <state relative-caret-position="100">
+                  <caret line="201" column="47" selection-start-line="201" selection-start-column="31" selection-end-line="201" selection-end-column="47" />
                   <folding />
                 </state>
               </provider>
@@ -70,10 +56,10 @@
           <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="754">
-                  <caret line="273" column="14" selection-start-line="273" selection-start-column="14" selection-end-line="273" selection-end-column="14" />
+                <state relative-caret-position="343">
+                  <caret line="256" column="22" selection-start-line="256" selection-start-column="22" selection-end-line="256" selection-end-column="22" />
                   <folding>
-                    <marker date="1470051931677" expanded="true" signature="3743:3763" ph="{...}" />
+                    <marker date="1470059889557" expanded="true" signature="3743:3763" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -92,8 +78,8 @@
           <file leaf-file-name="fonts.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/fonts.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="170">
+                  <caret line="10" column="50" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="50" />
                   <folding />
                 </state>
               </provider>
@@ -103,6 +89,13 @@
       </split-second>
     </splitter>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -111,8 +104,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/css/media.css" />
-        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/readme.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -159,6 +153,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -230,12 +225,12 @@
       <updated>1470038182390</updated>
       <workItem from="1470038184427" duration="3489000" />
       <workItem from="1470045393606" duration="2048000" />
-      <workItem from="1470051880936" duration="199000" />
+      <workItem from="1470051880936" duration="6914000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5736000" />
+    <option name="totallyTimeSpent" value="12451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1044" extended-state="6" />
@@ -314,7 +309,7 @@
         <state relative-caret-position="4641">
           <caret line="273" column="16" selection-start-line="273" selection-start-column="16" selection-end-line="273" selection-end-column="16" />
           <folding>
-            <marker date="1470051931677" expanded="true" signature="3743:3763" ph="{...}" />
+            <marker date="1470059889557" expanded="true" signature="3743:3763" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -356,7 +351,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1470051931677" expanded="true" signature="3743:3763" ph="{...}" />
+            <marker date="1470059889557" expanded="true" signature="3743:3763" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -385,10 +380,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/fonts.css">
+    <entry file="file://$PROJECT_DIR$/mail.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -401,29 +404,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mail.php">
+    <entry file="file://$PROJECT_DIR$/css/fonts.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="201" column="47" selection-start-line="201" selection-start-column="31" selection-end-line="201" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="273" column="14" selection-start-line="273" selection-start-column="14" selection-end-line="273" selection-end-column="14" />
+        <state relative-caret-position="343">
+          <caret line="256" column="22" selection-start-line="256" selection-start-column="22" selection-end-line="256" selection-end-column="22" />
           <folding>
-            <marker date="1470051931677" expanded="true" signature="3743:3763" ph="{...}" />
+            <marker date="1470059889557" expanded="true" signature="3743:3763" ph="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="153" column="70" selection-start-line="153" selection-start-column="70" selection-end-line="153" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>

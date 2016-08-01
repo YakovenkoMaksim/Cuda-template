@@ -254,7 +254,7 @@ h3 {
 
 .skills_section {
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 .skills_section p {
@@ -272,4 +272,78 @@ h3 {
     position: absolute;
     left: 110px;
     top: 40px;
+}
+
+/* Portfolio section */
+
+.portfolio_section {
+    background-color: #ffdd99;
+    text-align: center;
+    padding-bottom: 30px;
+    color: #393939;
+}
+
+.portfolio_section p {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.portfolio_filter li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.portfolio_filter button {
+    background-color: rgba(0, 0, 0, .1);
+    border: none;
+    display: block;
+    padding: 7px 30px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    height: 45px;
+    width: 110px;
+    margin-bottom: 20px;
+
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.portfolio_filter button:hover {
+    background-color: #ffffff;
+    box-shadow: 0 7px #dab874;
+}
+
+.active {
+    background-color: #fff !important;
+    box-shadow: 0 5px #dab874;
+    transform: translateY(2px);
+}
+
+.portfolio_filter button:active {
+    background-color: #ffffff;
+    box-shadow: 0 5px #dab874;
+    transform: translateY(2px);
+}
+
+.portfolio_works {
+    margin-top: 30px;
+}
+
+.portfolio_works img {
+    margin: 0 auto;
+}
+
+.portfolio_works h4{
+    padding-bottom: 70px;
+    font-family: "TitilliumWebRegular";
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 30px;
 }
