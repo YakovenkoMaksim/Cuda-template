@@ -347,3 +347,21 @@ h3 {
     text-transform: uppercase;
     margin-top: 30px;
 }
+
+
+.btn.btn_green {
+    background-color: #17c2a4;
+    box-shadow: 0 6px #00ab8d;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 75px;
+}
+
+button:hover.btn_green {
+    background-color: #1cc7a9;
+}
+
+button:active.btn.btn_green {
+    background-color: #0fba9c;
+    box-shadow: 0 5px #00a183;
+}
