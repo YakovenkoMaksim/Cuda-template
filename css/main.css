@@ -365,3 +365,45 @@ button:active.btn.btn_green {
     background-color: #0fba9c;
     box-shadow: 0 5px #00a183;
 }
+
+/* Clients about us section */
+
+.client_section {
+    background-color: #d74680;
+    text-align: center;
+    color: #ffffff;
+}
+
+.client_section p {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+
+.comments_block img {
+    float: left;
+}
+
+.comment_info_block {
+    margin-bottom: 140px;
+}
+
+.comment_text_block {
+    margin-left: 170px;
+    text-align: left;
+}
+
+.comment_text_block blockquote {
+    font-style: italic;
+    font-size: 21px;
+}
+
+.comment_text_block h3 {
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.comment_text_block span {
+    font-size: 18px;
+    color: #ffdd99;
+}

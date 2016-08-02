@@ -42,6 +42,15 @@
     .skills_section {
         padding-bottom: 0;
     }
+
+    .comment_info_block {
+        margin-bottom: 50px;
+    }
+
+    .comment_text_block {
+        padding-right: 10px;
+    }
+
 }
 
 /* Small Devices, Tablets */
@@ -90,6 +99,21 @@
     .service_section p {
         padding: 0;
     }
+
+    .percents {
+        left: 145px;
+    }
+
+    .comment_info_block img {
+        float: none;
+    }
+
+    .comment_text_block {
+        padding: 40px 10px;
+        text-align: center;
+        margin: 0;
+    }
+
 }
 
 /* Custom, iPhone Retina */
