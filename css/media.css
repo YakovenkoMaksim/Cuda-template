@@ -10,6 +10,7 @@
 
     .logo_block {
         margin-top: 30px;
+        margin-left: 15px;
     }
 
     .top_menu {
@@ -24,11 +25,12 @@
         width: 100%;
         z-index: 5;
     }
-
-    .top_menu ul li {
-        border-bottom: 5px solid #643a79;
+    
+    .top_menu li {
+        border-bottom: 2px solid #643a79;
         display: block;
         text-align: center;
+        padding: 10px;
     }
 
     .percents {
@@ -51,6 +53,22 @@
         padding-right: 10px;
     }
 
+    .contact_form input, textarea {
+        display: block;
+        margin-bottom: 30px;
+        width: 100% !important;
+    }
+
+    .social_footer li {
+        display: block;
+        width: 33%;
+        float: left;
+        padding: 20px 30px;
+    }
+
+    .social_footer {
+        padding-bottom: 15px;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -113,6 +131,32 @@
         text-align: center;
         margin: 0;
     }
+    
+    .contact_form {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    
+    .social_footer {
+        padding-bottom: 15px;
+    }
+
+
+    .social_footer ul {
+        margin-top: 15px;
+    }
+
+    .social_footer li {
+        display: block;
+        width: 33%;
+        float: left;
+        padding: 15px;
+    }
+
+    .social_footer a {
+        font-size: 18px;
+    }
+
 
 }
 

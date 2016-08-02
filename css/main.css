@@ -1,34 +1,41 @@
 @import "fonts.css";
 
 *::-webkit-input-placeholder {
-    color: #666;
-    opacity: 1;
-
+    color: #fff;
+    opacity: .7;
 }
 
 *:-moz-placeholder {
-    color: #666;
-    opacity: 1;
+    color: #fff;
+    opacity: .7;
 }
 
 *::-moz-placeholder {
-    color: #666;
-    opacity: 1;
+    color: #fff;
+    opacity: .7;
 }
 
 *:-ms-input-placeholder {
-    color: #666;
-    opacity: 1;
+    color: #fff;
+    opacity: .7;
 }
 
-body input:focus:required:invalid,
+body input:focus:required:invalid {
+    border-bottom: 2px solid #fff;
+}
+
 body textarea:focus:required:invalid {
-
+    border-bottom: 2px solid #fff;
 }
 
-body input:required:valid,
-body textarea:required:valid {
+body input:required,
+body textarea:required {
+    border-bottom: 2px solid right:  !important;
+}
 
+body input:valid,
+body textarea:valid {
+    border-bottom: 2px solid green;
 }
 
 * {
@@ -349,7 +356,6 @@ h3 {
     margin-top: 30px;
 }
 
-
 .btn.btn_green {
     background-color: #17c2a4;
     box-shadow: 0 6px #00ab8d;
@@ -425,4 +431,72 @@ button:active.btn.btn_green {
 
 .contact_form {
     margin-bottom: 70px;
+}
+
+.contact_form input,
+textarea {
+    background-color: #273a71;
+    height: 55px;
+    width: 415px;
+    border: #273a71;
+    padding-left: 25px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+}
+
+.contact_form input:first-child {
+    margin-right: 25px;
+}
+
+.contact_form textarea {
+    padding-top: 15px;
+    margin-top: 30px;
+    height: 200px;
+    resize: vertical;
+    width: 860px;
+}
+
+.btn.btn_blue {
+    background-color: #30bae7;
+    box-shadow: 0 6px #1ea8d5;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 120px;
+}
+
+button:hover.btn_blue {
+    background-color: #36c0ed;
+}
+
+button:active.btn.btn_blue {
+    background-color: #28b2df;
+    box-shadow: 0 5px #149ecb;
+}
+
+/* Social footer */
+
+.social_footer {
+    background-color: #344b8e;
+    text-align: center;
+}
+
+.social_footer li {
+    display: inline-block;
+    padding: 40px 30px;
+}
+
+.social_footer a {
+    list-style-type: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.social_footer a:hover {
+    color: #30bae7;
+}
+
+.social_footer a:active {
+    color: #30bae7;
 }

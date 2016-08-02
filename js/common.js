@@ -3,6 +3,7 @@ $(document).ready(function() {
 	$(".top_menu_button").click(function() {
 		$(".top_menu ul").slideToggle();
 	});
+
 	
 	//Таймер обратного отсчета
 	//Документация: http://keith-wood.name/countdown.html
