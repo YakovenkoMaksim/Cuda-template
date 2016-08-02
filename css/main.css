@@ -3,6 +3,7 @@
 *::-webkit-input-placeholder {
     color: #666;
     opacity: 1;
+
 }
 
 *:-moz-placeholder {
@@ -406,4 +407,22 @@ button:active.btn.btn_green {
 .comment_text_block span {
     font-size: 18px;
     color: #ffdd99;
+}
+
+/* Contact section */
+
+.contact_section {
+    background-color: #3c5499;
+    text-align: center;
+    color: #ffffff;
+}
+
+.contact_section p {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+
+.contact_form {
+    margin-bottom: 70px;
 }
