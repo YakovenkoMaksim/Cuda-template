@@ -30,7 +30,7 @@ body textarea:focus:required:invalid {
 
 body input:required,
 body textarea:required {
-    border-bottom: 2px solid right:  !important;
+
 }
 
 body input:valid,
@@ -282,9 +282,10 @@ h3 {
 
 .percents {
     font-size: 50px;
+    display: block;
     position: absolute;
-    left: 110px;
-    top: 40px;
+    top: 16%;
+    left: 37%;
 }
 
 /* Portfolio section */
@@ -330,7 +331,6 @@ h3 {
 
 .portfolio_filter button:hover {
     background-color: #ffffff;
-    box-shadow: 0 7px #dab874;
 }
 
 .active {
@@ -434,10 +434,6 @@ button:active.btn.btn_green {
     margin-bottom: 70px;
 }
 
-.contact_form {
-    margin-bottom: 70px;
-}
-
 .contact_form input,
 textarea {
     background-color: #273a71;
@@ -466,7 +462,7 @@ textarea {
     background-color: #30bae7;
     box-shadow: 0 6px #1ea8d5;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 80px;
     margin-bottom: 120px;
 }
 
