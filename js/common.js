@@ -4,6 +4,9 @@ $(document).ready(function() {
 		$(".top_menu ul").slideToggle();
 	});
 
+	$(".top_menu").find("a").click(function() {
+		$(".top_menu ul").slideToggle();
+	});
 
 	//Таймер обратного отсчета
 	//Документация: http://keith-wood.name/countdown.html
