@@ -11,6 +11,18 @@ $(document).ready(function() {
 		}
 	});
 
+	// Filter buttons
+	
+	$(".portfolio_filter").find("button").click(function () {
+		var activeBtn = $(".portfolio_filter").find("button").hasClass("active");
+		if (!activeBtn) {
+			$(".portfolio_filter").find("button").addClass("active");
+		}
+		else {
+			$(".portfolio_filter").find("button").removeClass("active");
+		}
+	})
+
 	//Таймер обратного отсчета
 	//Документация: http://keith-wood.name/countdown.html
 	//<div class="countdown" date-time="2015-01-07"></div>
