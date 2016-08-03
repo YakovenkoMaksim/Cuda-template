@@ -57,7 +57,7 @@ h1, h2, h3 {
     font-family: "TitilliumWebBold";
 }
 
-a.anchor{
+a[target="_self"]{
     position: absolute;
 }
 
