@@ -11,6 +11,12 @@ $(document).ready(function() {
 		}
 	});
 
+	// Filter buttons
+	$(".portfolio_filter").on("click", ".tab", function(){
+		$(".portfolio_filter .tab").removeClass("active"); //удаляем класс во всех вкладках
+		$(this).addClass("active"); //добавляем класс текущей (нажатой)
+	});
+
 	//Навигация по Landing Page
 	//$(".top_mnu") - это верхняя панель со ссылками.
 	//Ссылки вида <a href="#contacts">Контакты</a>
