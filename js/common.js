@@ -11,37 +11,22 @@ $(document).ready(function() {
 		}
 	});
 
-<<<<<<< HEAD
-=======
-	// Filter buttons
-	
-	$(".portfolio_filter").find("button").click(function () {
-		var activeBtn = $(".portfolio_filter").find("button").hasClass("active");
-		if (!activeBtn) {
-			$(".portfolio_filter").find("button").addClass("active");
-		}
-		else {
-			$(".portfolio_filter").find("button").removeClass("active");
-		}
-	})
-
-	//Таймер обратного отсчета
-	//Документация: http://keith-wood.name/countdown.html
-	//<div class="countdown" date-time="2015-01-07"></div>
-	var austDay = new Date($(".countdown").attr("date-time"));
-	$(".countdown").countdown({until: austDay, format: 'yowdHMS'});
-
-	//Попап менеджер FancyBox
-	//Документация: http://fancybox.net/howto
-	//<a class="fancybox"><img src="image.jpg" /></a>
-	//<a class="fancybox" data-fancybox-group="group"><img src="image.jpg" /></a>
-	$(".fancybox").fancybox();
-
->>>>>>> 21156cbc370435503552b133b1e5e34b6a335355
 	//Навигация по Landing Page
 	//$(".top_mnu") - это верхняя панель со ссылками.
 	//Ссылки вида <a href="#contacts">Контакты</a>
-	$(".top_mnu").navigation();
+	//$(".top_menu").navigation();
+	$('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
 
 	//Добавляет классы дочерним блокам .block для анимации
 	//Документация: http://imakewebthings.com/jquery-waypoints/

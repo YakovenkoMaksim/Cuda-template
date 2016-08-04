@@ -1,49 +1,36 @@
 @import "fonts.css";
-
 *::-webkit-input-placeholder {
     color: #fff;
     opacity: .7;
 }
-
 *:-moz-placeholder {
     color: #fff;
     opacity: .7;
 }
-
 *::-moz-placeholder {
     color: #fff;
     opacity: .7;
 }
-
 *:-ms-input-placeholder {
     color: #fff;
     opacity: .7;
 }
-
 body input:focus:required:invalid {
     border-bottom: 2px solid #fff;
 }
-
 body textarea:focus:required:invalid {
     border-bottom: 2px solid #fff;
 }
-
 body input:required,
-body textarea:required {
-
-}
-
-body input:valid,
+body textarea:required {} body input:valid,
 body textarea:valid {
     border-bottom: 2px solid green;
 }
-
 * {
     margin: 0;
     padding: 0;
     outline: none;
 }
-
 body {
     width: 100%;
     font-size: 16px;
@@ -53,19 +40,18 @@ body {
     overflow-x: hidden;
     font-family: "TitilliumWebRegular";
 }
-
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: "TitilliumWebBold";
 }
-
-a[target="_self"]{
+a[target="_self"] {
     position: absolute;
+    margin-top: 2px;
 }
-
 .hidden {
     display: none;
 }
-
 /* Button style */
 
 .btn {
@@ -80,38 +66,30 @@ a[target="_self"]{
     border: none;
     box-shadow: 0 6px #c55725;
 }
-
 .btn:active {
     background-color: #e77947;
     box-shadow: 0 5px #bd4f1d;
     transform: translateY(3px);
 }
-
 /* Header - TopLine */
 
 .main_header {
     background-color: #87509c;
     padding-bottom: 50px;
 }
-
 .logo_block {
     margin-top: 55px;
 }
-
 .top_menu {
     text-align: right;
 }
-
 .top_menu ul {
     margin-top: 60px;
-
 }
-
 .top_menu li {
     list-style-type: none;
     display: inline-block;
 }
-
 .top_menu li a {
     text-transform: uppercase;
     color: #ffffff;
@@ -123,16 +101,13 @@ a[target="_self"]{
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
 }
-
 .top_menu li a:hover {
     background-color: #643a79;
 }
-
 .top_menu_button {
     background-color: transparent;
     border: medium none;
@@ -141,98 +116,86 @@ a[target="_self"]{
     float: right;
     margin-right: 20px;
 }
-
 .header_middle {
     margin: 90px auto;
 }
-
 h1 {
     color: #fff;
     font-size: 42px;
     text-align: center;
 }
-
 .btn.btn_orange {
     background-color: #eb7d4b;
     box-shadow: 0 6px #c55725;
     font-weight: bold;
 }
-
 button:hover.btn_orange {
     background-color: #e07240;
 }
-
 button:active.btn.btn_orange {
     background-color: #e07240;
     box-shadow: 0 5px #bd4f1d;
 }
-
 /* Service section */
 
-.service_section,
-.team_section {
+.service_section {
     background-color: #17c2a4;
     text-align: center;
     color: #fff;
     padding-bottom: 50px;
 }
-
 h2 {
     font-size: 40px;
     margin-top: 95px;
     text-transform: uppercase;
 }
-
 h3 {
     font-size: 24px;
     text-transform: uppercase;
     margin-top: 40px;
 }
-
 .service_section p {
     font-size: 18px;
     margin: 10px 0 65px 0;
 }
-
 .service_block p {
     font-size: 16px !important;
     padding: 0 25px;
 }
-
 /* Team section */
 
 .team_section {
-    background-color: #eef2f5;
+    background-color: #e7f1f8;
     color: #3c4761;
+    text-align: center;
+    padding-bottom: 50px;
 }
-
 .team_section p {
     font-size: 18px;
     margin-top: 10px;
     margin-bottom: 65px;
 }
-
 .team_members h3 {
     color: #27283d;
     text-transform: uppercase;
 }
-
 .team_members span {
     color: #30bae7;
     font-weight: bold;
 }
-
 .team_members p {
     font-size: 16px;
     padding: 0 30px;
     margin-bottom: 35px !important;
 }
-
+.team_members img {
+    max-height: 210px;
+    max-width: 210px;
+}
 .btn_social {
     margin: 35px 0 50px 0;
     text-align: center;
 }
-
 .btn_social li {
     list-style-type: none;
     display: inline-block;
@@ -242,44 +205,36 @@ h3 {
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
     border-radius: 50px;
-
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
 }
-
 .btn_social i {
     color: #fff;
     font-size: 20px;
     margin-top: 8px;
     margin-left: 1px;
 }
-
 .btn_social li:hover {
     background-color: #4a8fc0;
 }
-
 .btn_social li {
     margin: 0 5px;
 }
-
 /* Skills section */
 
 .skills_section {
     text-align: center;
     padding-bottom: 100px;
 }
-
 .skills_section p {
     font-size: 18px;
     margin-top: 10px;
     margin-bottom: 65px;
 }
-
 .skills_block {
     position: relative;
 }
-
 .percents {
     font-size: 50px;
     display: block;
@@ -287,7 +242,6 @@ h3 {
     top: 16%;
     left: 37%;
 }
-
 /* Portfolio section */
 
 .portfolio_section {
@@ -296,18 +250,15 @@ h3 {
     padding-bottom: 30px;
     color: #393939;
 }
-
 .portfolio_section p {
     font-size: 18px;
     margin-top: 10px;
     margin-bottom: 50px;
 }
-
 .portfolio_filter li {
     list-style-type: none;
     display: inline-block;
 }
-
 .portfolio_filter button {
     background-color: rgba(0, 0, 0, .1);
     border: none;
@@ -323,44 +274,36 @@ h3 {
     height: 45px;
     width: 110px;
     margin-bottom: 20px;
-
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
 }
-
 .portfolio_filter button:hover {
     background-color: #ffffff;
 }
-
 .active {
     background-color: #fff !important;
     box-shadow: 0 5px #dab874;
     transform: translateY(2px);
 }
-
 .portfolio_filter button:active {
     background-color: #ffffff;
     box-shadow: 0 5px #dab874;
     transform: translateY(2px);
 }
-
 .portfolio_works {
     margin-top: 30px;
 }
-
 .portfolio_works img {
     margin: 0 auto;
 }
-
-.portfolio_works h4{
+.portfolio_works h4 {
     padding-bottom: 70px;
     font-family: "TitilliumWebRegular";
     font-size: 18px;
     text-transform: uppercase;
     margin-top: 30px;
 }
-
 .btn.btn_green {
     background-color: #17c2a4;
     box-shadow: 0 6px #00ab8d;
@@ -368,16 +311,13 @@ h3 {
     margin-top: 10px;
     margin-bottom: 75px;
 }
-
 button:hover.btn_green {
     background-color: #1cc7a9;
 }
-
 button:active.btn.btn_green {
     background-color: #0fba9c;
     box-shadow: 0 5px #00a183;
 }
-
 /* Clients about us section */
 
 .client_section {
@@ -385,41 +325,35 @@ button:active.btn.btn_green {
     text-align: center;
     color: #ffffff;
 }
-
 .client_section p {
     font-size: 18px;
     margin-top: 10px;
     margin-bottom: 70px;
 }
-
 .comments_block img {
     float: left;
+    max-width: 110px;
+    max-height: 110px;
 }
-
 .comment_info_block {
     margin-bottom: 140px;
 }
-
 .comment_text_block {
     margin-left: 170px;
     text-align: left;
 }
-
 .comment_text_block blockquote {
     font-style: italic;
     font-size: 21px;
 }
-
 .comment_text_block h3 {
     margin-top: 20px;
     text-transform: uppercase;
 }
-
 .comment_text_block span {
     font-size: 18px;
     color: #ffdd99;
 }
-
 /* Contact section */
 
 .contact_section {
@@ -427,13 +361,11 @@ button:active.btn.btn_green {
     text-align: center;
     color: #ffffff;
 }
-
 .contact_section p {
     font-size: 18px;
     margin-top: 10px;
     margin-bottom: 70px;
 }
-
 .contact_form input,
 textarea {
     background-color: #273a71;
@@ -445,11 +377,9 @@ textarea {
     -moz-border-radius: 7px;
     border-radius: 7px;
 }
-
 .contact_form input:first-child {
     margin-right: 25px;
 }
-
 .contact_form textarea {
     padding-top: 15px;
     margin-top: 30px;
@@ -457,7 +387,6 @@ textarea {
     resize: vertical;
     width: 860px;
 }
-
 .btn.btn_blue {
     background-color: #30bae7;
     box-shadow: 0 6px #1ea8d5;
@@ -465,43 +394,35 @@ textarea {
     margin-top: 80px;
     margin-bottom: 120px;
 }
-
 button:hover.btn_blue {
     background-color: #36c0ed;
 }
-
 button:active.btn.btn_blue {
     background-color: #28b2df;
     box-shadow: 0 5px #149ecb;
 }
-
 /* Social footer */
 
 .social_footer {
     background-color: #344b8e;
     text-align: center;
 }
-
 .social_footer li {
     display: inline-block;
     padding: 40px 30px;
 }
-
 .social_footer a {
     list-style-type: none;
     color: #fff;
     font-size: 24px;
     font-weight: bold;
 }
-
 .social_footer a:hover {
     color: #30bae7;
 }
-
 .social_footer a:active {
     color: #30bae7;
 }
-
 /* Button #top */
 
 #top {
