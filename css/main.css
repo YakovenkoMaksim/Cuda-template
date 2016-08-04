@@ -44,7 +44,7 @@ body textarea:valid {
 }
 
 body {
-
+    width: 100%;
     font-size: 16px;
     min-width: 320px;
     position: relative;
@@ -241,7 +241,7 @@ h3 {
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
     border-radius: 50px;
-    
+
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
@@ -499,4 +499,19 @@ button:active.btn.btn_blue {
 
 .social_footer a:active {
     color: #30bae7;
+}
+
+/* Button #top */
+
+#top {
+    position: absolute;
+    right: 50px;
+    bottom: 30px;
+    background-color: #3c5499;
+    border: none;
+    height: 50px;
+    width: 50px;
+    color: #ffffff;
+    font-size: 30px;
+    border-radius: 10px;
 }
