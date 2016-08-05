@@ -1,21 +1,17 @@
 /*==========  Desktop First Method  ==========*/
-
 /* Large Devices, Wide Screens */
-@media only screen and (max-width: 1200px) {
-}
 
+@media only screen and (max-width: 1200px) {}
 /* Medium Devices, Desktops */
-@media only screen and (max-width: 992px) {
 
+@media only screen and (max-width: 992px) {
     .logo_block {
         margin-top: 30px;
         margin-left: 15px;
     }
-
     .top_menu {
         margin: 0 -15px;
     }
-
     .top_menu ul {
         background-color: #78418d;
         display: none;
@@ -24,190 +20,159 @@
         width: 100%;
         z-index: 5;
     }
-
     .top_menu li {
         border-bottom: 2px solid #643a79;
         display: block;
         text-align: center;
         padding: 10px;
     }
-
     .percents {
         left: 150px;
     }
-
     .skills_block h3 {
         padding-bottom: 70px;
     }
-
     .skills_section {
         padding-bottom: 0;
     }
-
     .comment_info_block {
         margin-bottom: 50px;
     }
-
     .comment_text_block {
         padding-right: 10px;
     }
-
-    .contact_form input, textarea {
+    .contact_form input,
+    textarea {
         display: block;
         margin-bottom: 30px;
         width: 100% !important;
     }
-
     .social_footer li {
         display: block;
         width: 33%;
         float: left;
         padding: 20px 30px;
     }
-
     .social_footer {
         padding-bottom: 15px;
     }
-
     .percents {
         left: 41%;
         top: 12%;
     }
-
     #top {
         position: relative;
         margin-top: -10px;
     }
 }
-
 /* Small Devices, Tablets */
-@media only screen and (max-width: 768px) {
 
+@media only screen and (max-width: 768px) {
     /*Disable Animation on Mobile Devices*/
+
     .animated {
         /*CSS transitions*/
+
         -o-transition-property: none !important;
         -moz-transition-property: none !important;
         -ms-transition-property: none !important;
         -webkit-transition-property: none !important;
         transition-property: none !important;
         /*CSS transforms*/
+
         -o-transform: none !important;
         -moz-transform: none !important;
         -ms-transform: none !important;
         -webkit-transform: none !important;
         transform: none !important;
         /*CSS animations*/
+
         -webkit-animation: none !important;
         -moz-animation: none !important;
         -o-animation: none !important;
         -ms-animation: none !important;
         animation: none !important;
     }
-
 }
-
 @media only screen and (max-width: 650px) {
     .percents {
         left: 44%;
     }
 }
-
 /* Extra Small Devices, Phones */
-@media only screen and (max-width: 480px) {
 
+@media only screen and (max-width: 480px) {
     h1 {
         font-size: 30px;
         margin: 0 auto;
     }
-
     .btn {
         width: 70%;
     }
-
     .service_section h2 {
         font-size: 28px;
     }
-
     .service_section p {
         padding: 0;
     }
-
     .percents {
         left: 145px;
     }
-
     .comment_info_block img {
         float: none;
     }
-
     .comment_text_block {
         padding: 40px 10px;
         text-align: center;
         margin: 0;
     }
-
     .contact_form {
         margin-right: 20px;
         margin-left: 20px;
     }
-
     .social_footer {
         padding-bottom: 15px;
     }
-
     .social_footer ul {
         margin-top: 15px;
     }
-
     .social_footer li {
         display: block;
         width: 33%;
         float: left;
         padding: 15px;
     }
-
     .social_footer a {
         font-size: 18px;
     }
-
     .percents {
         left: 40%;
     }
 }
-
 /* Custom, iPhone Retina */
-@media only screen and (max-width: 320px) {
 
+@media only screen and (max-width: 320px) {
     .percents {
         left: 38%;
     }
 }
-
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
-@media only screen and (min-width: 320px) {
 
-}
-
+@media only screen and (min-width: 320px) {}
 /* Extra Small Devices, Phones */
-@media only screen and (min-width: 480px) {
 
-}
-
+@media only screen and (min-width: 480px) {}
 /* Small Devices, Tablets */
-@media only screen and (min-width: 768px) {
 
-}
-
+@media only screen and (min-width: 768px) {}
 /* Medium Devices, Desktops */
+
 @media only screen and (min-width: 992px) {
     .top_menu ul {
         display: block !important;
     }
 }
-
 /* Large Devices, Wide Screens */
-@media only screen and (min-width: 1200px) {
 
-}
+@media only screen and (min-width: 1200px) {}

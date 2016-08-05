@@ -1,358 +1,420 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]><html lang="en" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
-<!--[if IE 7]><html lang="en" class="lt-ie9 lt-ie8"><![endif]-->
-<!--[if IE 8]><html lang="en" class="lt-ie9"><![endif]-->
+<!--[if lt IE 7]>
+<html lang="en" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]>
+<html lang="en" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]>
+<html lang="en" class="lt-ie9"><![endif]-->
 <!--[if gt IE 8]><!-->
 <html lang="en">
 <!--<![endif]-->
+
 <head>
-	<meta charset="utf-8" />
-	<title>2_Cuda</title>
-	<meta name="description" content="" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="shortcut icon" href="favicon.png" />
-	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
-	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
-	<link rel="stylesheet" href="css/fonts.css" />
-	<link rel="stylesheet" href="css/main.css" />
-	<link rel="stylesheet" href="css/media.css" />
+    <meta charset="utf-8"/>
+    <title>2_Cuda</title>
+    <meta name="description" content=""/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="shortcut icon" href="favicon.png"/>
+    <link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css"/>
+    <link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/fonts.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/media.css"/>
 </head>
+
 <body>
 
-	<header class="main_header"><!-- <a id="home" target="_self"></a> -->
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4">
-					<div class="logo_block">
-						<a href="#"><img src="img/logo.png" alt="logo"></a>
-						<button class="top_menu_button hidden-md hidden-lg"><i class="fa fa-bars"></i></button>
-					</div>
-				</div>
-				<div class="col-md-8">
-					<nav class="top_menu clearfix">
-						<ul style="display: none;">
-							<li><a href="#home">Home</a></li>
-							<li><a href="#service">Service</a></li>
-							<li><a href="#team">Our Team</a></li>
-							<li><a href="#skills">Skills</a></li>
-							<li><a href="#portfolio">Portfolio</a></li>
-							<li><a href="#contact">Contact</a></li>
-						</ul>
-					</nav>
-				</div>
-			</div>
-		</div>
-		<div class="header_middle">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-10 col-md-offset-1">
-						<h1>Hi there! We are the new kids on the block and we build awesome websites and mobile
-							apps.</h1>
-						<button class="btn btn_orange">WORK WITH US !</button>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
-	<section class="service_section"><a id="service" target="_self"></a>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<h2>Services we provide</h2>
-					<img src="img/line.png" alt="servuce-line">
-					<p>We are working with both individuals and businesses from all over the globe to create awesome websites and applications.</p>
-				</div>
-				<div class="service_block">
-					<div class="col-md-3 col-sm-6">
-						<img src="img/icon_1.png" alt="flag">
-						<h3>Branding</h3>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<img src="img/icon_2.png" alt="flag">
-						<h3>Design</h3>
-						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<img src="img/icon_3.png" alt="flag">
-						<h3>Development</h3>
-						<p>At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium.</p>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<img src="img/icon_4.png" alt="flag">
-						<h3>Rocket science</h3>
-						<p>Et harum quidem rerum est et expedita distinctio. Nam libero tempore.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="team_section"><a id="team" target="_self"></a>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<h2>Meet our beautiful team</h2>
-					<img src="img/line.png" alt="team-line">
-					<p>We are a small team of designers and developers, who help brands with big ideas.</p>
-				</div>
-				<div class="row">
-					<div class="team_members">
-						<div class="col-md-3 col-sm-6">
-							<img class="img-circle" src="img/team_1.jpg" alt="team-member">
-							<h3>ANNE HATHAWAY</h3>
-							<span>CEO / Marketing Guru</span>
-							<p>Lorem ipsum dolor sit amet,consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
-							<div class="btn_social">
-								<ul>
-									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6">
-							<img class="img-circle" src="img/team_2.jpg" alt="team-member">
-							<h3>Kate Upton</h3>
-							<span>Creative Director</span>
-							<p>Duis aute irure dolor in in voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur sint occaecat non diam proident.</p>
-							<div class="btn_social">
-								<ul>
-									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6">
-							<img class="img-circle" src="img/team_3.jpg" alt="team-member">
-							<h3>Olivia Wilde</h3>
-							<span>Lead Designer</span>
-							<p>Nemo enim ipsam voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
-							<div class="btn_social">
-								<ul>
-									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6">
-							<img class="img-circle" src="img/team_4.jpg" alt="team-member">
-							<h3>Ashley Greene</h3>
-							<span>SEO / Developer</span>
-							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-							<div class="btn_social">
-								<ul>
-									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="skills_section"><a id="skills" target="_self"></a>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<h2>We got skills</h2>
-					<img src="img/line.png" alt="skills-line">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				</div>
-			</div>				
-			<div class="row">
-				<div class="skills_block">
-					<div class="col-md-3 col-sm-6">
-						<span class="percents">90%</span>
-						<img src="img/skills_1.png" alt="skills">
-						<h3>Web Design</h3>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<span class="percents">75%</span>
-						<img src="img/skills_2.png" alt="skills">
-						<h3>HTML / CSS</h3>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<span class="percents">70%</span>
-						<img src="img/skills_3.png" alt="skills">
-						<h3>GRAPHIC DESIGN</h3>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<span class="percents">85%</span>
-						<img src="img/skills_4.png" alt="skills">
-						<h3>UI / UX</h3>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="portfolio_section"><a id="portfolio" target="_self"></a>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<h2>OUR PORTFOLIO</h2>
-					<img src="img/line.png" alt="portfolio-line">
-					<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia non numquam</p>
-					<ul class="portfolio_filter">
-						<li>
-							<button class="active tab" type="button">All</button>
-						</li>
-						<li>
-							<button class="tab" type="button">Web</button>
-						</li>
-						<li>
-							<button class="tab" type="button">Apps</button>
-						</li>
-						<li>
-							<button class="tab" type="button">Icons</button>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<div class="portfolio_works">
-			<div class="row">
-				<div class="container">
-					<div class="col-md-6">
-						<img src="img/work_1.png" alt="work" class="img-responsive">
-						<h4>Isometric Perspective Mock-Up</h4>
-					</div>
-					<div class="col-md-6">
-						<img src="img/work_2.png" alt="work" class="img-responsive">
-						<h4>Time Zone App UI</h4>
-					</div>
-					<div class="col-md-6">
-						<img src="img/work_3.png" alt="work" class="img-responsive">
-						<h4>Viro Media Players UI</h4>
-					</div>
-					<div class="col-md-6">
-						<img src="img/work_4.png" alt="work" class="img-responsive">
-						<h4>Blog / Magazine Flat UI Kit</h4>
-					</div>
-					<div class="col-md-12">
-						<button class="btn btn_green">LOAD MORE PROJECTS</button>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="client_section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<h2>WHAT POEPLE SAY ABOUT US</h2>
-					<img src="img/line.png" alt="about-line">
-					<p>Our clients love us!</p>
-				</div>
-			</div>
-		</div>
-		<div class="comments_block">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6">
-						<div class="comment_info_block"><img class="img-circle" src="img/client_1.jpg" alt="client">
-							<div class="comment_text_block">
-								<blockquote>“Nullam dapibus blandit orci, viverra gravid.a dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”</blockquote>
-								<h3>Chanel Iman</h3>
-								<span>CEO of Pinterest</span>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="comment_info_block"><img class="img-circle" src="img/client_2.jpg" alt="client">
-							<div class="comment_text_block">
-								<blockquote>“Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.”</blockquote>
-								<h3>ADRIANA LIMA</h3>
-								<span>Founder of Instagram</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6">
-						<div class="comment_info_block"><img class="img-circle" src="img/client_3.jpg" alt="client">
-							<div class="comment_text_block">
-								<blockquote>“Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.”</blockquote>
-								<h3>ANNE HATHAWAY</h3>
-								<span>Lead Designer at Behance</span>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="comment_info_block"><img class="img-circle" src="img/client_4.jpg" alt="client">
-							<div class="comment_text_block">
-								<blockquote>“Phasellus non purus vel arcu tempor commodo. Fusce semper, purus vel luctus molestie, risus sem cursus neque.”</blockquote>
-								<h3>EMMA STONE</h3>
-								<span>Co-Founder of Shazam</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="contact_section"><a id="contact" target="_self"></a>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<h2>GET IN TOUCH</h2>
-					<img src="img/line.png" alt="contact-line">
-					<p>1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111</p>
-				</div>
-				<form action="mail.php" class="contact_form">
-					<input type="text" placeholder="Your Name *" required="required" />
-					<input type="email" placeholder="Your Email *" required="required" />
-					<textarea placeholder="Your Message *" required="required" ></textarea>
-					<button class="btn btn_blue" type="submit">SEND MESSAGE</button>
-				</form>
-			</div>
-		</div>
-	</section>
-	<footer class="social_footer">
-		<div class="container">
-			<div class="row">
-				<button id="top"><i class="fa fa-angle-up" aria-hidden="true"></i></button>
-				<ul>
-					<li><a href="#" >Facebook</a></li>
-					<li><a href="#" >Twitter</a></li>
-					<li><a href="#" >Google+</a></li>
-					<li><a href="#" >LinkedIn</a></li>
-					<li><a href="#" >Github</a></li>
-					<li><a href="#" >Behance</a></li>
-				</ul>
-			</div>
-		</div>
-	</footer>
+<header class="main_header">
+    <!-- <a id="home" target="_self"></a> -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="logo_block">
+                    <a href="#"><img src="img/logo.png" alt="logo">
+                    </a>
+                    <button class="top_menu_button hidden-md hidden-lg"><i class="fa fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <nav class="top_menu clearfix">
+                    <ul style="display: none;">
+                        <li><a href="#home">Home</a>
+                        </li>
+                        <li><a href="#service">Service</a>
+                        </li>
+                        <li><a href="#team">Our Team</a>
+                        </li>
+                        <li><a href="#skills">Skills</a>
+                        </li>
+                        <li><a href="#portfolio">Portfolio</a>
+                        </li>
+                        <li><a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="header_middle">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <h1>Hi there! We are the new kids on the block and we build awesome websites and mobile
+                        apps.</h1>
+                    <button class="btn btn_orange">WORK WITH US !</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="service_section">
+    <a id="service" target="_self"></a>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Services we provide</h2>
+                <img src="img/line.png" alt="servuce-line">
+                <p>We are working with both individuals and businesses from all over the globe to create awesome
+                    websites and applications.</p>
+            </div>
+            <div class="service_block">
+                <div class="col-md-3 col-sm-6">
+                    <img src="img/icon_1.png" alt="flag">
+                    <h3>Branding</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <img src="img/icon_2.png" alt="flag">
+                    <h3>Design</h3>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <img src="img/icon_3.png" alt="flag">
+                    <h3>Development</h3>
+                    <p>At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium.</p>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <img src="img/icon_4.png" alt="flag">
+                    <h3>Rocket science</h3>
+                    <p>Et harum quidem rerum est et expedita distinctio. Nam libero tempore.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="team_section">
+    <a id="team" target="_self"></a>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Meet our beautiful team</h2>
+                <img src="img/line.png" alt="team-line">
+                <p>We are a small team of designers and developers, who help brands with big ideas.</p>
+            </div>
+            <div class="row">
+                <div class="team_members">
+                    <div class="col-md-3 col-sm-6">
+                        <img class="img-circle" src="img/team_1.jpg" alt="team-member">
+                        <h3>ANNE HATHAWAY</h3>
+                        <span>CEO / Marketing Guru</span>
+                        <p>Lorem ipsum dolor sit amet,consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                            tincidunt ut laoreet dolore magna.</p>
+                        <div class="btn_social">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <img class="img-circle" src="img/team_2.jpg" alt="team-member">
+                        <h3>Kate Upton</h3>
+                        <span>Creative Director</span>
+                        <p>Duis aute irure dolor in in voluptate velit esse cillum dolore fugiat nulla pariatur.
+                            Excepteur sint occaecat non diam proident.</p>
+                        <div class="btn_social">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <img class="img-circle" src="img/team_3.jpg" alt="team-member">
+                        <h3>Olivia Wilde</h3>
+                        <span>Lead Designer</span>
+                        <p>Nemo enim ipsam voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+                            dolores eos qui ratione voluptatem.</p>
+                        <div class="btn_social">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <img class="img-circle" src="img/team_4.jpg" alt="team-member">
+                        <h3>Ashley Greene</h3>
+                        <span>SEO / Developer</span>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium, totam rem aperiam.</p>
+                        <div class="btn_social">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="skills_section">
+    <a id="skills" target="_self"></a>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>We got skills</h2>
+                <img src="img/line.png" alt="skills-line">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="skills_block">
+                <div class="col-md-3 col-sm-6">
+                    <span class="percents">90%</span>
+                    <img src="img/skills_1.png" alt="skills">
+                    <h3>Web Design</h3>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <span class="percents">75%</span>
+                    <img src="img/skills_2.png" alt="skills">
+                    <h3>HTML / CSS</h3>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <span class="percents">70%</span>
+                    <img src="img/skills_3.png" alt="skills">
+                    <h3>GRAPHIC DESIGN</h3>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <span class="percents">85%</span>
+                    <img src="img/skills_4.png" alt="skills">
+                    <h3>UI / UX</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="portfolio_section">
+    <a id="portfolio" target="_self"></a>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>OUR PORTFOLIO</h2>
+                <img src="img/line.png" alt="portfolio-line">
+                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia
+                    non numquam</p>
+                <ul class="portfolio_filter">
+                    <li>
+                        <button class="active tab" type="button">All</button>
+                    </li>
+                    <li>
+                        <button class="tab" type="button">Web</button>
+                    </li>
+                    <li>
+                        <button class="tab" type="button">Apps</button>
+                    </li>
+                    <li>
+                        <button class="tab" type="button">Icons</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio_works">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/work_1.png" alt="work" class="img-responsive">
+                    <h4>Isometric Perspective Mock-Up</h4>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/work_2.png" alt="work" class="img-responsive">
+                    <h4>Time Zone App UI</h4>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/work_3.png" alt="work" class="img-responsive">
+                    <h4>Viro Media Players UI</h4>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/work_4.png" alt="work" class="img-responsive">
+                    <h4>Blog / Magazine Flat UI Kit</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <button class="btn btn_green">LOAD MORE PROJECTS</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="client_section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>WHAT POEPLE SAY ABOUT US</h2>
+                <img src="img/line.png" alt="about-line">
+                <p>Our clients love us!</p>
+            </div>
+        </div>
+    </div>
+    <div class="comments_block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="comment_info_block"><img class="img-circle" src="img/client_1.jpg" alt="client">
+                        <div class="comment_text_block">
+                            <blockquote>“Nullam dapibus blandit orci, viverra gravid.a dui lobortis eget. Maecenas
+                                fringilla urna eu nisl scelerisque.”
+                            </blockquote>
+                            <h3>Chanel Iman</h3>
+                            <span>CEO of Pinterest</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="comment_info_block"><img class="img-circle" src="img/client_2.jpg" alt="client">
+                        <div class="comment_text_block">
+                            <blockquote>“Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum
+                                facilisis porta.”
+                            </blockquote>
+                            <h3>ADRIANA LIMA</h3>
+                            <span>Founder of Instagram</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="comment_info_block"><img class="img-circle" src="img/client_3.jpg" alt="client">
+                        <div class="comment_text_block">
+                            <blockquote>“Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum
+                                facilisis porta.”
+                            </blockquote>
+                            <h3>ANNE HATHAWAY</h3>
+                            <span>Lead Designer at Behance</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="comment_info_block"><img class="img-circle" src="img/client_4.jpg" alt="client">
+                        <div class="comment_text_block">
+                            <blockquote>“Phasellus non purus vel arcu tempor commodo. Fusce semper, purus vel luctus
+                                molestie, risus sem cursus neque.”
+                            </blockquote>
+                            <h3>EMMA STONE</h3>
+                            <span>Co-Founder of Shazam</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="contact_section">
+    <a id="contact" target="_self"></a>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>GET IN TOUCH</h2>
+                <img src="img/line.png" alt="contact-line">
+                <p>1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111</p>
+            </div>
+            <form action="mail.php" class="contact_form">
+                <input type="text" placeholder="Your Name *" required="required"/>
+                <input type="email" placeholder="Your Email *" required="required"/>
+                <textarea placeholder="Your Message *" required="required"></textarea>
+                <button class="btn btn_blue" type="submit">SEND MESSAGE</button>
+            </form>
+        </div>
+    </div>
+</section>
+<footer class="social_footer">
+    <div class="container">
+        <div class="row">
+            <button id="top"><i class="fa fa-angle-up" aria-hidden="true"></i>
+            </button>
+            <ul>
+                <li><a href="#">Facebook</a>
+                </li>
+                <li><a href="#">Twitter</a>
+                </li>
+                <li><a href="#">Google+</a>
+                </li>
+                <li><a href="#">LinkedIn</a>
+                </li>
+                <li><a href="#">Github</a>
+                </li>
+                <li><a href="#">Behance</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
 
 
-	<!--[if lt IE 9]>
-	<script src="libs/html5shiv/es5-shim.min.js"></script>
-	<script src="libs/html5shiv/html5shiv.min.js"></script>
-	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
-	<script src="libs/respond/respond.min.js"></script>
-	<![endif]-->
-	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
-	<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
-	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
-	<script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
-	<script src="libs/scrollto/jquery.scrollTo.min.js"></script>
-	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
-	<script src="libs/countdown/jquery.plugin.js"></script>
-	<script src="libs/countdown/jquery.countdown.min.js"></script>
-	<script src="libs/countdown/jquery.countdown-ru.js"></script>
-	<script src="libs/landing-nav/navigation.js"></script>
-	<script src="js/common.js"></script>
-	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
-	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+<!--[if lt IE 9]>
+<script src="libs/html5shiv/es5-shim.min.js"></script>
+<script src="libs/html5shiv/html5shiv.min.js"></script>
+<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
+<script src="libs/scrollto/jquery.scrollTo.min.js"></script>
+<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+<script src="libs/countdown/jquery.plugin.js"></script>
+<script src="libs/countdown/jquery.countdown.min.js"></script>
+<script src="libs/countdown/jquery.countdown-ru.js"></script>
+<script src="libs/landing-nav/navigation.js"></script>
+<script src="js/common.js"></script>
+<!-- Yandex.Metrika counter -->
+<!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter -->
+<!-- /Google Analytics counter -->
 </body>
+
 </html>

@@ -23,31 +23,33 @@ body textarea:focus:required:invalid {
 }
 body input:required,
 body textarea:required {} body input:valid,
-body textarea:valid {
-    border-bottom: 2px solid green;
-}
+                          body textarea:valid {
+                              border-bottom: 2px solid green;
+                          }
 * {
     margin: 0;
     padding: 0;
-    outline: none;
 }
 body {
     width: 100%;
     font-size: 16px;
     min-width: 320px;
-    position: relative;
     line-height: 1.6;
-    overflow-x: hidden;
-    font-family: "TitilliumWebRegular";
+    font-family: "TitilliumWebRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 h1,
 h2,
 h3 {
-    font-family: "TitilliumWebBold";
+    font-family: "TitilliumWebBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 a[target="_self"] {
     position: absolute;
     margin-top: 2px;
+}
+a,
+:hover,
+:focus {
+    outline-style: none;
 }
 .hidden {
     display: none;
@@ -191,6 +193,7 @@ h3 {
 .team_members img {
     max-height: 210px;
     max-width: 210px;
+    overflow: hidden;
 }
 .btn_social {
     margin: 35px 0 50px 0;
@@ -231,9 +234,6 @@ h3 {
     font-size: 18px;
     margin-top: 10px;
     margin-bottom: 65px;
-}
-.skills_block {
-    position: relative;
 }
 .percents {
     font-size: 50px;
@@ -296,10 +296,11 @@ h3 {
 }
 .portfolio_works img {
     margin: 0 auto;
+    overflow: hidden;
 }
 .portfolio_works h4 {
     padding-bottom: 70px;
-    font-family: "TitilliumWebRegular";
+    font-family: "TitilliumWebRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 18px;
     text-transform: uppercase;
     margin-top: 30px;
@@ -334,6 +335,7 @@ button:active.btn.btn_green {
     float: left;
     max-width: 110px;
     max-height: 110px;
+    overflow: hidden;
 }
 .comment_info_block {
     margin-bottom: 140px;
