@@ -73,6 +73,11 @@
         left: 41%;
         top: 12%;
     }
+
+    #top {
+        position: relative;
+        margin-top: -10px;
+    }
 }
 
 /* Small Devices, Tablets */

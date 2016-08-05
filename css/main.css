@@ -426,9 +426,8 @@ button:active.btn.btn_blue {
 /* Button #top */
 
 #top {
-    position: absolute;
-    right: 50px;
-    bottom: 30px;
+    display: block;
+    margin: -8px auto;
     background-color: #3c5499;
     border: none;
     height: 50px;
