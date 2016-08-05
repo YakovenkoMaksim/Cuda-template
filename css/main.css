@@ -47,8 +47,8 @@ a[target="_self"] {
     margin-top: 2px;
 }
 a,
-:hover,
-:focus {
+a:hover,
+a:focus {
     outline-style: none;
 }
 .hidden {
