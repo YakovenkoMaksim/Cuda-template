@@ -29,6 +29,12 @@
         text-align: center;
         padding: 10px;
     }
+    .btn_social {
+        margin-bottom: 70px;
+    }
+    .team_section {
+        padding-bottom: 50px;
+    }
     .percents {
         left: 150px;
     }
@@ -150,6 +156,9 @@
     }
     .percents {
         left: 40%;
+    }
+    .portfolio_filter button {
+        margin: 10px 15px;
     }
 }
 /* Custom, iPhone Retina */
